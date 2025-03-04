@@ -10,6 +10,11 @@
             "includePath": [
                 "/Users/pakyjr/projects/noizee/include",
                 "/Users/pakyjr/projects/noizee/src",
+                "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit ADXL345",
+                "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit BusIO",
+                "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
+                "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit Unified Sensor",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -228,7 +233,6 @@
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -238,7 +242,6 @@
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -246,6 +249,11 @@
                 "path": [
                     "/Users/pakyjr/projects/noizee/include",
                     "/Users/pakyjr/projects/noizee/src",
+                    "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit ADXL345",
+                    "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit BusIO",
+                    "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
+                    "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                    "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit Unified Sensor",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -464,7 +472,6 @@
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -474,7 +481,6 @@
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                    "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""
                 ]
             },

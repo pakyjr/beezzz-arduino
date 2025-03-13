@@ -10,3 +10,4 @@ platformio.ini
 *.pyo
 *.log
 *.tmp
+.vscode/c_cpp_properties.json

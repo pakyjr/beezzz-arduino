@@ -1,1 +1,12 @@
-.pio
+.pio/
+build/
+.vscode/
+
+platformio.ini
+**/platformio.ini
+*.code-workspace
+
+*.pyc
+*.pyo
+*.log
+*.tmp

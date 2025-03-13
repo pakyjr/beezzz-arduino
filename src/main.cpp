@@ -5,15 +5,20 @@
 
 void setup(void)
 {
-    // setup_accel();
+    // uncomment to read accel data
+    //  setup_accel();
+
+    // uncomment to read mic data
     setup_mic();
 }
 
 void loop(void)
 {
+    // uncomment to read accel data
+    //  sensors_event_t event;
+    //  loop_accel(event);
 
-    // sensors_event_t event;
-    // loop_accel(event);
+    // uncomment to read mic data
     int16_t sample;
     loop_mic(sample);
 }

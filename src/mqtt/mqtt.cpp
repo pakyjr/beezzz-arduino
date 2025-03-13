@@ -1,6 +1,7 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include "./utils/utils.h"
+#include "mqtt.h"
 
 Config &config = Config::getInstance();
 
@@ -35,4 +36,19 @@ void connectMQTT()
             delay(2000);
         }
     }
+}
+
+void setupMQTT()
+{
+    connectWiFi();
+    connectMQTT();
+}
+
+void loopMQTT()
+{
+    if (!client.connected())
+    {
+        connectMQTT();
+    }
+    client.loop();
 }

@@ -7,9 +7,7 @@
 void setup(void)
 {
     // wifi setup
-    connectWiFi();
-    connectMQTT();
-    // end wifi
+    setupMQTT();
 
     // uncomment to read accel data
     //  setup_accel();
@@ -21,12 +19,7 @@ void setup(void)
 void loop(void)
 {
     // wifi/mqtt
-    if (!client.connected())
-    {
-        connectMQTT();
-    }
-    client.loop();
-    // end wifi
+    loopMQTT();
 
     // uncomment to read accel data
     //  sensors_event_t event;

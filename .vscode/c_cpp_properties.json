@@ -11,6 +11,7 @@
                 "/Users/pakyjr/projects/noizee/include",
                 "/Users/pakyjr/projects/noizee/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
+                "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/PubSubClient/src",
                 "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit ADXL345",
                 "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit BusIO",
@@ -246,7 +247,6 @@
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 ""
@@ -257,6 +257,7 @@
                     "/Users/pakyjr/projects/noizee/include",
                     "/Users/pakyjr/projects/noizee/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
+                    "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/PubSubClient/src",
                     "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit ADXL345",
                     "/Users/pakyjr/projects/noizee/.pio/libdeps/esp32dev/Adafruit BusIO",
@@ -492,7 +493,6 @@
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                    "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/Users/pakyjr/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     ""

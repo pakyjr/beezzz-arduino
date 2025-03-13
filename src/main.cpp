@@ -2,9 +2,15 @@
 
 #include "./i2s/i2s_setup.h"
 #include "./i2c/i2c_setup.h"
+#include "./mqtt/mqtt.h"
 
 void setup(void)
 {
+    // wifi setup
+    connectWiFi();
+    connectMQTT();
+    // end wifi
+
     // uncomment to read accel data
     //  setup_accel();
 
@@ -14,6 +20,14 @@ void setup(void)
 
 void loop(void)
 {
+    // wifi/mqtt
+    if (!client.connected())
+    {
+        connectMQTT();
+    }
+    client.loop();
+    // end wifi
+
     // uncomment to read accel data
     //  sensors_event_t event;
     //  loop_accel(event);

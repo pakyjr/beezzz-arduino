@@ -7,5 +7,5 @@
 #define I2S_SD 32  // Serial Data (DOUT)
 #define I2S_SCK 14 // Serial Clock (BCKL)
 
-void setup_mic();
+void setup_mic(int serial);
 void loop_mic(int16_t sample);

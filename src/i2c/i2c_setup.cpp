@@ -1,5 +1,7 @@
 #include "i2c_setup.h"
 
+Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified();
+
 void setup_accel()
 {
     Serial.begin(9600);
@@ -15,6 +17,12 @@ void setup_accel()
 void loop_accel(sensors_event_t event)
 {
     accel.getEvent(&event);
+    print_accel(event);
+    delay(500);
+}
+
+void print_accel(sensors_event_t event)
+{
     Serial.print("X: ");
     Serial.print(event.acceleration.x);
     Serial.print("  ");
@@ -25,5 +33,4 @@ void loop_accel(sensors_event_t event)
     Serial.print(event.acceleration.z);
     Serial.print("  ");
     Serial.println("m/s^2 ");
-    delay(500);
 }

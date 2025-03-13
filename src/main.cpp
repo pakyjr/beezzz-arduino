@@ -9,7 +9,7 @@ void setup(void)
     //  setup_accel();
 
     // uncomment to read mic data
-    setup_mic();
+    setup_mic(115200);
 }
 
 void loop(void)

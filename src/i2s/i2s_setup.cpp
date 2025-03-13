@@ -1,8 +1,8 @@
 #include "i2s_setup.h"
 
-void setup_mic()
+void setup_mic(int serial)
 {
-    Serial.begin(115200);
+    Serial.begin(serial);
 
     I2S.setAllPins(I2S_SCK, I2S_WS, I2S_SD, -1, -1);
     I2S.begin(I2S_PHILIPS_MODE, 16000, 16); // 16kHz, 16-bit depth

@@ -1,5 +1,7 @@
 # 🐝 ESP32 Bee Hive Monitoring System
 
+iOS app repos: https://github.com/pakyjr/Beezz-iOS
+
 This project uses an ESP32 microcontroller to monitor bee hive activity in real time. It captures audio frequency data via a microphone sensor and sends it to a remote server using MQTT.
 
 ## 📦 Features
